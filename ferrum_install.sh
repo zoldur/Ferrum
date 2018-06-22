@@ -5,7 +5,7 @@ CONFIG_FILE='FerrumCoin.conf'
 CONFIGFOLDER='/root/.FerrumCoin'
 COIN_DAEMON='/usr/local/bin/ferrumcoind'
 COIN_CLI='/usr/local/bin/ferrumcoind'
-COIN_REPO='https://github.com/Ferrumcrypto/ferrum/releases/download/v1.1.1/ferrum.zip'
+COIN_REPO='https://bitbucket.org/FerrumCommunity/ferrumdownload/downloads/ferrum.zip'
 COIN_NAME='Ferrum'
 COIN_PORT=49046
 RPC_PORT=49047
@@ -24,7 +24,7 @@ CONFIG_FILE='FerrumCoin.conf'
 CONFIGFOLDER='/root/.FerrumCoin'
 COIN_DAEMON='/usr/local/bin/ferrumcoind'
 COIN_CLI='/usr/local/bin/ferrumcoind'
-COIN_REPO='https://github.com/Ferrumcrypto/ferrum/releases/download/v1.1.1/ferrum.zip'
+COIN_REPO='https://bitbucket.org/FerrumCommunity/ferrumdownload/downloads/ferrum.zip'
 COIN_NAME='Ferrum'
 COIN_PORT=49046
 RPC_PORT=49047
@@ -140,19 +140,8 @@ masternode=1
 bind=$NODEIP
 masternodeaddr=$NODEIP:$COIN_PORT
 masternodeprivkey=$COINKEY
-addnode=209.250.229.114:49046
-addnode=185.36.188.175:49046
-addnode=185.188.183.240:49046
-addnode=46.73.9.44:49046
-addnode=93.100.113.177:49046
-addnode=94.102.124.227:49046
-addnode=105.226.120.16:49046
-addnode=95.26.204.174:49046
-addnode=77.45.26.62:49046
-addnode=94.181.5.169:49046
-addnode=128.79.7.184:49046
-addnode=37.25.104.18:49046
-addnode=91.214.117.26:49046
+46.101.14.172:49046
+167.99.38.238:49046
 EOF
 }
 
